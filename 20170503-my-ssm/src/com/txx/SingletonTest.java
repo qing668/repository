@@ -13,7 +13,8 @@ public class SingletonTest {
 		System.out.println(instance);
 		System.out.println(instance2);
 		Map map = new HashMap();
-		map.put("a", 1133333); 
+		map.put("a", 1155555); 
+		
 		map.put("b", 22);
 		instance.setMap(map);
 		
