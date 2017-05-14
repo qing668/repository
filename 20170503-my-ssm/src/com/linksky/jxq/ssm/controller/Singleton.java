@@ -11,7 +11,7 @@ public class Singleton {
 	
 	public static Singleton getInstance(){
 		if (sin == null){
-			sin = new Singleton();//懒汉模式
+			sin = new Singleton();//懒汉
 		}
 		return sin;
 	}
